@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+import plotly as px
+#import plotly.express as px
 import altair as alt
 from datetime import datetime, timedelta
 import numpy as np
-import warnings 
-warnings.filterwarnings('ignore')
+
 
 
 st.title("La consommation de spiritueux, vins et bières par pays, de 1890 à 2014.")
